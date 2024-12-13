@@ -25,18 +25,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_regular"
                     android:textColor="@color/black"
-                    android:text="Selamat malam," />
+                    android:text="Selamat malam, Fufufafa" />
 
-                <TextView
-                    android:id="@+id/txt_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_regular"
-                    android:text="Asyifa Dzaky"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="5dp" />
+
             </LinearLayout>
 
             <ImageView
@@ -52,7 +44,7 @@
                 android:text="Saldo"
                 android:textColor="@color/black"
                 android:layout_marginLeft="10dp"
-                android:fontFamily="@font/poppins_regular"
+                
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"/>
 
@@ -81,34 +73,33 @@
                         android:id="@+id/txt_account"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ASYIFA DZAKY MAULANA "
+                        android:text="Fufufafa "
                         android:textColor="@color/black"
-                        android:fontFamily="@font/poppins_regular"
+                        
                         android:layout_marginTop="8dp" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/baseline_content_copy_24"
-                        android:layout_marginStart="120dp"/>
+                        android:layout_marginStart="230dp"/>
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="BNI Taplus Muda | 8009-9999-****-****"
                     android:textColor="@color/black"
-                    android:textSize="8dp"
-                    android:text="BNI Taplus Muda | 7263-2938-2390-****"
-                    android:fontFamily="@font/poppins_regular"
-                    android:layout_marginTop="5dp"/>
+                    android:textSize="12dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_regular"
+                    
                     android:text="Rp ********"
                     android:textColor="@color/black"
-                    android:textSize="17sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_marginTop="8dp" />
 
@@ -123,6 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Tarik tunai"
+                        android:layout_marginEnd="70dp"
                         android:backgroundTint="@color/orange"/>
 
                     <Button
@@ -140,7 +132,7 @@
                 android:text="Shortcut Kamu"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:fontFamily="@font/poppins_regular"
+                
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"/>
 
@@ -255,7 +247,7 @@
                 android:text="Insight BNI"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:fontFamily="@font/poppins_regular"
+                
                 android:layout_marginLeft="10dp"/>
             <HorizontalScrollView
                 android:layout_width="match_parent"
