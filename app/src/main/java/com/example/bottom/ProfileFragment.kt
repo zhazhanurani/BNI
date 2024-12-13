@@ -46,8 +46,7 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val sharedPref = requireActivity().getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-        val userName = sharedPref.getString("userName", "Default User") // Ganti dengan nilai default yang sesuai
-        binding.username.setText(userName)
+
 
         binding.btnBackHome.setOnClickListener {
             findNavController().navigateUp() // Navigasi kembali ke HomeFragment
